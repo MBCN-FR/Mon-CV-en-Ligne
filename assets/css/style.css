@@ -1,0 +1,239 @@
+/* Font CSS */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@font-face {
+    font-family: "Raleway";
+    src: url(../font/Raleway/Raleway-VariableFont_wght.woff);
+    src: url(../font/Raleway/Raleway-VariableFont_wght.ttf) format(truetype);
+}
+
+/* CSS Structure */
+body {
+    margin: auto;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: #f5f5f5;
+    max-width: 1160px;
+    color: #333333;
+    box-sizing: border-box;
+}
+
+main, footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+/* CSS Mise en Forme */
+h1, h2 {
+    font-family: "Lato", sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #17abb3;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+hr {
+    border: solid 1px #e3e3e3;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* CSS Header */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #17abb3;
+    color: #ffffff;
+}
+
+header img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: solid 5px #ffffff;
+    object-fit: cover;
+    margin: 0 90px;
+    cursor: zoom-in;
+}
+
+.img-profil {
+    cursor:default;
+}
+
+#profil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0 233px 0 20px;
+}
+
+#profil h2 {
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.card {
+    width: 240px;
+    padding: 10px 0 10px 0;
+}
+
+.card span {
+    color: #ffffff;
+    font-weight: 200; 
+}
+
+.fa-solid {
+    color: #ffffff;
+    margin-right: 5px;
+}
+
+/* CSS Aside */
+aside {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(227, 227, 227, 0.5);
+    padding: 2.5em;
+    width: 50%;
+}
+
+.qualities, .interest {
+    list-style-type: square;
+    padding-left: 1.5em;
+}
+
+.interest ::marker , .qualities ::marker {
+    color: #17abb3;
+    font-size: 1.5em;
+}
+
+.flex-spacing {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.flex-spacing a {
+    color: #ffffff;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.left-bold {
+    font-weight: 700;
+}
+
+.right-blue {
+    color: #17abb3;
+    font-size: 1.5em;
+    margin: -10px 0px;
+}
+
+/* CSS Main */
+main {
+    background-color: #ffffff;
+}
+
+#main-content {
+    padding: 2.5em;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px 0;
+}
+
+.content:hover {
+    border-left: solid 5px #17abb3;
+    background-color: rgb(227, 227, 227, 0.5);
+    padding: 10px;
+}
+
+.content h3 {
+    margin: 0px;
+    font-size: 1em;
+}
+
+.content p {
+    margin: 0;
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+.content span {
+    color: #17abb3;
+    font-weight: 400;
+}
+
+.text-content {
+    text-indent: 2em;
+    text-align: justify;
+}
+
+/* CSS Footer */
+footer {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    background-color: #17abb3;
+    color: #ffffff;
+}
+
+.text-footer {
+    margin-top: -0em;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 0.9em;
+}
+
+.icon-social {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 178px;
+}
+
+.fa-brands {
+    color: #ffffff;
+}
+
+.fa-brands:hover {
+    opacity: 0.8;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 255px;
+    margin: 10px;
+    padding: 0;
+}
