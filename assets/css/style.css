@@ -38,7 +38,7 @@ h1 {
 h2 {
     color: #17abb3;
     font-weight: 400;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 hr {
@@ -145,7 +145,7 @@ aside {
 .right-blue {
     color: #17abb3;
     font-size: 1.5em;
-    margin: -10px 0px;
+    margin: -10px 0;
 }
 
 /* CSS Main */
@@ -174,7 +174,7 @@ main {
 }
 
 .content h3 {
-    margin: 0px;
+    margin: 0;
     font-size: 1em;
 }
 
@@ -206,7 +206,7 @@ footer {
 }
 
 .text-footer {
-    margin-top: -0em;
+    margin-top: -0;
     font-style: italic;
     font-weight: 400;
     font-size: 0.9em;
